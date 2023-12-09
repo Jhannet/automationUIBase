@@ -15,13 +15,13 @@ import org.testng.annotations.BeforeSuite;
 
 public abstract class BaseTest {
     protected WebDriver webDriver;
-    private String url = "https://the-internet.herokuapp.com/";
+    private String url = "https://todo.ly/";
     private String browser = "chrome";
 
 
     @BeforeSuite
     public static void setUpSuite() throws Exception {
-        ReportManager.init("Reports", "Report Group 4");
+        ReportManager.init("Reports", "Report Jhannet Jancko");
     }
 
     @BeforeMethod
